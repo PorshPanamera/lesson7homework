@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+p.reg text {
+  color: #727272;
+  line-height: 1.64;
+  max-width: 540px;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+header {
+  padding-top: 80px;
+  background-color: #eeeff1;
+}
+header nav a {
+  font-size: 16px;
+  text-decoration: none;
+  margin-right: 42px;
+  color: black;
+  text-transform: uppercase;
+}
+#intro {
+  background-color: #eeeff1;
+  padding-top: 150px;
+}
+.intro-info h1 {
+  font-size: 48px;
+  font-weight: 500px;
+  padding-bottom: 60px;
+}
+.intro-info p {
+  padding-bottom: 65px;
+}
+.intro-info button {
+  background-color: #34547a;
+  color: white;
+  border: none;
+  width: 225px;
+  height: 65px;
+  margin-bottom: 60px;
+}
+#aboutMe {
+  padding: 112px 0 100px;
+}
+.description {
+  text-align: center;
+}
+.description h2 {
+  font-size: 32px;
+  font-weight: 500px;
+  padding-bottom: 50px;
+}
+.description p {
+  margin: 0 auto;
+}
+#works {
+  background-color: #34547a;
+  padding: 100px 0;
+}
+.works-conent__card {
+  display: inline-block;
+  padding: 0 24px;
+}
+.card-info {
+  display: inline-block;
+  color: white;
+  vertical-align: bottom;
+  margin-left: 20px;
+}
+.card-info h5 {
+  font-size: 21px;
+  font-weight: 500px;
+  padding-bottom: 10px;
+}
+.card-info h6 {
+  font-size: 16px;
+  font-weight: 400px;
+  padding-bottom: 3px;
+}
+.howWork {
+  padding: 100px 0;
+}
+.how-work-contet {
+  padding: 100px 0;
+}
+embed,
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+footer {
+  background-color: #34547a;
+  padding: 150px 0;
+}
+footer h4 {
+  font-size: 21px;
+  padding-bottom: 20px;
+  color: white;
+}
+footer p {
+  font-size: 13px;
+  color: white;
+}
