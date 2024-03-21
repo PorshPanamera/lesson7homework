@@ -7,17 +7,22 @@ html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
+body {
+  max-width: 100vw;
+}
+
 p.reg text {
   color: #727272;
   line-height: 1.64;
   max-width: 540px;
 }
-.container {
+
+/*.container {
   max-width: 1110px;
   margin: 0 auto;
-}
+}*/
 header {
-  padding-top: 80px;
+  padding: 5% 0 5% 5%;
   background-color: #eeeff1;
 }
 header nav a {
@@ -29,11 +34,11 @@ header nav a {
 }
 #intro {
   background-color: #eeeff1;
-  padding-top: 150px;
+  padding: 0 0 10% 5%;
 }
 .intro-info h1 {
   font-size: 48px;
-  font-weight: 500px;
+  font-weight: 500;
   padding-bottom: 60px;
 }
 .intro-info p {
@@ -55,7 +60,7 @@ header nav a {
 }
 .description h2 {
   font-size: 32px;
-  font-weight: 500px;
+  font-weight: 500;
   padding-bottom: 50px;
 }
 .description p {
@@ -65,9 +70,16 @@ header nav a {
   background-color: #34547a;
   padding: 100px 0;
 }
+.works_wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
 .works-conent__card {
-  display: inline-block;
-  padding: 0 24px;
+  display: block;
+  padding: 0;
 }
 .card-info {
   display: inline-block;
@@ -77,12 +89,12 @@ header nav a {
 }
 .card-info h5 {
   font-size: 21px;
-  font-weight: 500px;
+  font-weight: 500;
   padding-bottom: 10px;
 }
 .card-info h6 {
   font-size: 16px;
-  font-weight: 400px;
+  font-weight: 400;
   padding-bottom: 3px;
 }
 .howWork {
@@ -93,12 +105,13 @@ header nav a {
 }
 embed,
 iframe {
+  width: 50%;
   display: block;
   margin: 0 auto;
 }
 footer {
   background-color: #34547a;
-  padding: 150px 0;
+  padding: 5% 0 5% 5%;
 }
 footer h4 {
   font-size: 21px;
